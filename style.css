@@ -1,0 +1,79 @@
+* {
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+/* For Water Marker Start Here  */
+#background{
+  z-index: -1;
+  top: 35%;
+  left: 20%;
+}
+
+#bg-text
+{
+  color:rgba(211, 211, 211, 0.24);
+  font-size:120px;
+  transform:rotate(-30deg);
+  -webkit-transform:rotate(-30deg);
+}
+
+#bg-text2
+{
+  position: relative;
+  left: 20%;
+  color:rgba(211, 211, 211, 0.24);
+  font-size:40px;
+  transform:rotate(-30deg);
+  -webkit-transform:rotate(-30deg);
+}
+/* For Water Marker End Here  */
+
+
+
+
+.palindrome_box_area{
+  width: 90%;
+  max-width: 35.25em;
+  background-color: #fff;
+  padding: 4em 3em;
+  border-radius: 0.5em;
+  box-shadow: 0 2em 3.5em rgba(0, 9, 50, 0.3);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+
+input{
+  border: none;
+  border-bottom: 2px solid #e2e4ef;
+  color: #172039;
+  padding: 1em 0;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+
+input:focus {
+  border-bottom: 2px solid #4571f5;
+}
+
+
+.success {
+  background-color: #01bd5f;
+  animation: pop 0.4s;
+}
+.error {
+  background-color: #f52a3b;
+  animation: pop 0.4s;
+}
+@keyframes pop {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
