@@ -22,7 +22,7 @@ button.addEventListener("click", () => {
   //Create a message based on whether the input is a palindrome or not
   const message = isPalindrome
     ? `<span>Yes. </span> It's a palindrome!`
-    : `<span>Nope. </span> Not a palindrome!`;
+    : `<span>Oh No! Sorry. </span> Not a palindrome!`;
 
   //Unpdate the result element with the message
   palindrome_result.innerHTML = message;
